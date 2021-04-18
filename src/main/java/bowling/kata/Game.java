@@ -6,7 +6,7 @@ public class Game {
 		
 	}
 	
-	public void score() {
+	public int score() {
 		
 	}
 }
