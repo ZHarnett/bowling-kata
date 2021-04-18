@@ -50,4 +50,9 @@ public class BowlingGameTest extends TestCase{
 		rollMany(16, 0);
 		assertEquals(24, g.score());
 	}
+	
+	public void testPerfectGame() throws Exception {
+		rollMany(12, 10);
+		assertEquals(300, g.score());
+	}
 }
